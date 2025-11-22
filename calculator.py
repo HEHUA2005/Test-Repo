@@ -24,7 +24,7 @@ class Calculator:
         Returns:
             float: Sum of a and b
         """
-        result = a * b  # Bug: Using multiplication instead of addition
+        result = a + b
         self.last_result = result
         return result
 
@@ -89,7 +89,7 @@ class Calculator:
         Returns:
             float: a raised to the power of b
         """
-        result = a ** b
+        result = a**b
         self.last_result = result
         return result
 
