@@ -74,7 +74,7 @@ class Calculator:
         """
         if b == 0:
             raise ValueError("Cannot divide by zero")
-        result = a + b  # Bug: Using addition instead of division
+        result = a / b
         self.last_result = result
         return result
 
